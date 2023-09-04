@@ -1,0 +1,153 @@
+        body{
+            margin:0;
+            padding:0;
+        }
+       .div-one{
+        height:100vh;
+        width:100vw;
+        background-image:url("developer.jpg");
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+       }
+       .div-one-p1{
+           font-size:60px;
+           color:white;
+           text-align: center;
+       }
+       .font1{
+           font-size:30px;
+           color:white;
+           width:max-content;
+        }
+        .div-one-p2{
+            font-size:60px;
+            color:white;
+            text-align: center;
+        }
+       .div-two{
+        height:max-content;
+        width:100%;
+        background-color: black;
+        color:white;
+        font-size:50px;
+        text-align:center;
+        font-family: Castellar;
+       }
+       .div-three{
+          width:100%;
+          display:flex;
+          flex-direction:row;
+          justify-content:space-around;
+          align-items:center;
+          background-color:skyblue;
+          flex-wrap: wrap;
+       }
+       .div-three-child1{
+          height: 350px;
+          width:250px;
+          background-image:url("coding.jpg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          
+       }
+       .div-three-child2{
+          height: 350px;
+          width:250px;
+          background-image:url("android.jpg");
+          background-size: 100% 165px;
+          background-repeat: no-repeat;
+          
+       }
+       .div-three-child3{
+          height: 350px;
+          width:250px;
+          background-image:url("linux.jpg");
+          background-size: 100% 165px;
+          background-repeat: no-repeat;
+          
+       }
+       .main{
+        height: 380px; width:280px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+       }
+       .div-three-child1,.div-three-child2,.div-three-child3{
+        border-radius:15px;
+        box-shadow: 10px 10px 5px rgb(94, 92, 92);
+        background-color: azure;
+      }
+      .div-three-child1:hover{
+        height: 360px; width:260px;
+        box-shadow: none;
+        transition:300ms;
+      }
+      .div-three-child2:hover{
+        height: 360px; width:260px;
+        box-shadow: none;
+        transition:300ms;
+      }
+      .div-three-child3:hover{
+        height: 360px; width:260px;
+        box-shadow: none;
+        transition:300ms;
+      }
+      .div-three-p1{
+        margin-top: 170px;
+        padding:5px;
+        font-size: 25px;
+        font-weight:bolder;
+      }
+      .div-three-p2{
+        margin-top:-20px;
+        padding:5px;
+      }
+      .div-three-p3{
+        background-color: red;
+        color:white;
+        width:max-content;
+        font-size:20px;
+        border-radius:10px;
+        margin:0% 35%;
+      }
+      .div-four-child1{
+         width:49%;
+         background-color: rgb(17, 17, 17);
+         color:white;
+         padding:10px;
+         float: right;
+      }
+      .div-four-child2{
+         width:49%;
+         background-color: rgb(17, 17, 17);
+         color:white;
+         padding:10px;
+         
+      }
+       a{
+        text-decoration:none;
+        color:white;
+       }
+       font{
+        color:green;
+       }
+       @media (max-width:667px){
+        .div-four{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: skyblue;
+        }
+        .div-four-child1{
+          margin-bottom: 10px;
+        }
+       }
+       @media(max-width:364px){
+        .div-one{
+          width:fit-content;
+        }
+        .div-two{
+          margin-top:10px;
+        }
+        body{width:346px;}
+       }
